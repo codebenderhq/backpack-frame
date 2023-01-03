@@ -1,0 +1,3 @@
+[submodule "backpack-std"]
+	path = backpack-std
+	url = git@github.com:codebenderhq/backpack-std.git
