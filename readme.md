@@ -16,7 +16,13 @@ create a new project
 grape new 'project_name'
 ```
 
+install libraries
+```
+grape std
+```
+
 start the development server
 ```
 grape dev
 ```
+
