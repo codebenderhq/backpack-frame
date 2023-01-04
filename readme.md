@@ -16,6 +16,13 @@ create a new project
 grape new 'project_name'
 ```
 
+or create template from this repository
+
+initialize enviroment
+```
+grape init
+```
+
 install libraries
 ```
 grape std
