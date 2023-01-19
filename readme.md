@@ -48,5 +48,10 @@ create a release
 deno task release  0.0.1-pre -m"hello world"
 ```
 
+deploy release
+```
+git push --follow-tags
+```
+
 
 
