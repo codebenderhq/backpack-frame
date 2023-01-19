@@ -36,3 +36,12 @@ start the development server
 grape dev
 ```
 
+### Release
+
+Nice to have, enable push to allwaus follow
+```
+git config --global push.followTags true
+```
+
+
+
