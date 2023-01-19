@@ -43,5 +43,10 @@ Nice to have, enable push to allwaus follow
 git config --global push.followTags true
 ```
 
+create a release
+```
+deno task release  0.0.1-pre -m"hello world"
+```
+
 
 
