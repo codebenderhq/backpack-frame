@@ -27,7 +27,10 @@ install libraries
 ```
 grape std
 ```
-
+create .env file 
+```
+env=dev
+```
 start the development server
 ```
 grape dev
