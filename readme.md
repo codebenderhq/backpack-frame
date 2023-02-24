@@ -11,10 +11,9 @@ initialize enviroment
 deno task init
 ```
 
-install libraries
-```
-deno task  std
-```
+clone std libraries from https://github.com/codebenderhq/std to folder just outside project
+
+
 create .env file 
 ```
 env=dev
