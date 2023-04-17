@@ -5,14 +5,12 @@
 [Deno](https://deno.land/manual@v1.29.1/getting_started/installation)
 ## Getting Started
 
+clone std libraries from https://github.com/codebenderhq/std to folder just outside project
 
 initialize enviroment
 ```
 deno task init
 ```
-
-clone std libraries from https://github.com/codebenderhq/std to folder just outside project
-
 
 create .env file 
 ```
@@ -20,7 +18,7 @@ env=dev
 ```
 start the development server
 ```
-deno task  dev
+deno task  start
 ```
 
 ### Release
