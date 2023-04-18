@@ -1,5 +1,4 @@
-
-self-hosted backend-as-a-service platform
+With the ever-evolving world of web development, it can be difficult to keep up with the latest trends and technologies. F.R.A.M.E is a basic low-code web framework that can help you cut through the noise and focus on what matters to your users and business.
 
 ## System Requirements
 ### Deno
