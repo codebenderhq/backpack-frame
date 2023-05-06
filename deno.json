@@ -1,13 +1,10 @@
 {
     "tasks": {
-        "start" : "deno run -A https://deno.land/x/sauveur/index.js",
-        "dev" : "export ENV=dev && export LOCAL=./src && deno run  -A  --watch=./src/  ../std/index.js",
+        "start" : "deno run -A --import-map ./import_map.json https://deno.land/x/sauveur@0.0.5-pre/index.js",
+        "dev" : "export ENV=dev && export LOCAL=./src && deno run  -A --import-map ./import_map.json  --watch=./src/  ../std/index.js",
         "bundle" : "deno compile -A -o serve ../std/.frame/index.js",
         "release": "echo 'creating release' && git tag -a",
         "init": "chmod +x style && ./style && deno task bundle"
     },
-    "lock": false,
-    "imports": {
-        "./app" : "./src/_app/"
-    }
+    "lock": false
 }
