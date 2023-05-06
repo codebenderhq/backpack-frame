@@ -1,5 +1,5 @@
-import postHtml from "npm:posthtml";
-import customElements  from 'npm:posthtml-custom-elements'
+// import postHtml from "npm:posthtml";
+// import customElements  from 'npm:posthtml-custom-elements'
 
 
 /**
@@ -27,17 +27,17 @@ export const onBuild = async () => {
 //    const customElements =  await import(`npm:posthtml-custom-elements`);
 
    
-   const html = '<div>hello</div>'
-   const params  = {}
-   let res;
+//    const html = '<div>hello</div>'
+//    const params  = {}
+//    let res;
  
-   await postHtml()
-   .use(customElements())
-   .process(html).then((result) => res = result.html)
+//    await postHtml()
+//    .use(customElements())
+//    .process(html).then((result) => res = result.html)
 
 
-    const sum = 1 + 1 + 1 + 1;
-    return {sum, res,params}
+//     const sum = 1 + 1 + 1 + 1;
+//     return {sum, res,params}
 }
 
 
